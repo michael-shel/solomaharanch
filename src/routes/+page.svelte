@@ -28,14 +28,10 @@
       icon: "./instagram.webp",
     },
   ];
-
-  console.log("page", $page);
 </script>
 
 <svelte:head>
   <title>EquiRehab</title>
-  <link rel="icon" href="{$page.url.origin}/logo.png" />
-  <meta property="image" content="{$page.url.origin}/logo.png" />
   <meta name="description" content="EquiRehab LinksTree" />
   <meta property="og_site_name" content="EquiRehab LinksTree" />
   <meta
@@ -46,13 +42,6 @@
   <meta property="og:title" content="EquiRehab" />
   <meta property="og:description" content="EquiRehab SolomahaRanch LinksTree" />
   <meta property="og:image" content="{$page.url.origin}/logo.png" />
-  <meta name="twitter:title" content="EquiRehab" />
-  <meta
-    name="twitter:description"
-    content="EquiRehab SolomahaRanch LinksTree"
-  />
-  <meta name="twitter:image" content="{$page.url.origin}/logo.png" />
-  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div
